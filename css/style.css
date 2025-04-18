@@ -19,25 +19,48 @@ body {
 /* Wrapper */
 
 .wrapper {
-    max-width: 850px;
+    max-width: 950px;
     margin: 2em auto;
 }
 
 /* Header / Nav */
 
-nav {
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 13px;
+    margin-bottom: 10px;
 
-    .nav__right__top {
+    .header__right__top {
         display: flex;
         gap: 10px;
+        margin-bottom: 5px;
     }
 
-    .nav__right__bottom {
+    .header__right__bottom {
         display: flex;
         gap: 10px;
+        justify-content: flex-end;
+    }
+}
+
+/* Nav */
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    font-size: 15px;
+    padding: 0;
+    background-color: rgb(17, 57, 57);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    li {
+        padding: 1em 2em;
+        white-space: nowrap;
+        border-right: 1px solid rgb(14, 79, 67);
+
     }
 }
