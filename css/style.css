@@ -19,7 +19,7 @@ body {
 /* Wrapper */
 
 .wrapper {
-    max-width: 950px;
+    max-width: 1050px;
     margin: 2em auto;
 }
 
@@ -97,3 +97,47 @@ header {
         color: rgb(183, 182, 182);
 
     }
+}
+
+/* Latest Section */
+
+.latest-section {
+    margin-top: 15px;
+    background-color: rgb(35, 34, 34);
+    padding: 15px;
+    max-width: 76%;
+    margin-bottom: 10px;
+
+    h2 {
+        margin: 0px 10px 20px 0px;
+        Padding: 0;
+        font-size: 15px;
+        color: rgb(127, 127, 127);
+    }
+}
+
+/* AOTM */
+
+main {
+    max-width: 76%;
+    color: white;
+}
+
+.aotm {
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    flex-direction: column;
+}
+
+.aotm-header {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    background-color: rgb(66, 63, 63);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.aotm-main {
+    padding: 15px;
+}
